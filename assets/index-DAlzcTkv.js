@@ -15751,89 +15751,15 @@ function jp({ onOpenConsultation: y, onNavigateToTab: H, settings: v }) {
                         className:
                           "text-2xs text-gray-500 mt-1.5 leading-relaxed",
                         children: ae.detail,
-                      }),
-                    ],
-                  },
-                  C,
-                ),
-              ),
             }),
           ],
-        }),
-        l.jsx("div", {
-          className:
-            "bg-[#0F172A] text-white rounded-3xl p-8 shadow-lg border border-[#D4A017]/30",
-          id: "about-certs-section",
-          children: l.jsxs("div", {
-            className: "flex flex-col md:flex-row items-center gap-8",
-            children: [
-              l.jsx("div", {
-                className:
-                  "w-24 h-24 bg-[#D4A017]/10 text-[#D4A017] rounded-full flex items-center justify-center border border-[#D4A017]/30 shrink-0",
-                children: l.jsx(lf, { className: "h-12 w-12" }),
-              }),
-              l.jsxs("div", {
-                className: "space-y-4 flex-1",
-                children: [
-                  l.jsxs("div", {
-                    children: [
-                      l.jsx("h3", {
-                        className: "text-lg font-extrabold text-white",
-                        children: "Sertifikasi & Kredensial Resmi",
-                      }),
-                      l.jsx("p", {
-                        className: "text-xs text-gray-400",
-                        children:
-                          "Kami menjamin seluruh aktivitas broker didasari oleh standar profesional tinggi dan kepatuhan hukum penuh.",
-                      }),
-                    ],
-                  }),
-                  l.jsx("div", {
-                    className: "grid grid-cols-1 md:grid-cols-2 gap-4",
-                    children: V.map((ae, C) =>
-                      l.jsxs(
-                        "div",
-                        {
-                          className:
-                            "bg-white/5 p-3 rounded-xl border border-white/10 flex items-start gap-2.5",
-                          children: [
-                            l.jsx(Mu, {
-                              className:
-                                "h-4 w-4 text-[#D4A017] mt-0.5 shrink-0",
-                            }),
-                            l.jsxs("div", {
-                              children: [
-                                l.jsx("h4", {
-                                  className:
-                                    "text-xs font-bold text-white leading-tight",
-                                  children: ae.title,
-                                }),
-                                l.jsxs("p", {
-                                  className: "text-3xs text-gray-400 mt-0.5",
-                                  children: [
-                                    "Oleh: ",
-                                    ae.issuer,
-                                    " (",
-                                    ae.year,
-                                    ")",
-                                  ],
-                                }),
-                              ],
-                            }),
-                          ],
-                        },
-                        C,
-                      ),
-                    ),
-                  }),
-                ],
-              }),
-            ],
-          }),
-        }),
-      ],
-    }),
-  });
+         },
+        C,
+       ),
+     ),
+   }),
+  ],
+ }),
 }
 function kp({
   onOpenConsultation: y,
